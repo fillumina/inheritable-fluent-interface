@@ -78,7 +78,7 @@ which is much easier to read.
 Another thing to notice is that most of the time fluent interface is used on
 builders which are helpers that aim to create a class in an easier way than using
 the constructors directly. Builders are not Java Beans and do not have any
-other rule in a code other than building other objects. So it's wasteful to
+other role other than building other objects. So it's wasteful to
 use the usual setters conventions with them and a most direct approach can
 be safely taken using the name of the property without prefixing it with
 _set_.
